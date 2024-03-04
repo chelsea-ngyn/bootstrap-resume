@@ -1,0 +1,85 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+body {
+    font-family: Georgia, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 5% 15%;
+    background-color: #f9eccd;
+}
+
+h1 {
+    font: bold 2em Georgia, serif;
+    color: #230903;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: #230903;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+a:link {
+    text-decoration: underline;
+    color: #230903;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover, a:active {
+    color: orange;
+}
+
+.list {
+    list-style: none;
+    padding-left: 30px;
+    background-image: url("bullet_image.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px;
+}
+
+p {
+    color: #3C1518;
+    text-indent: 30px;
+}
+
+.btn {
+    background-color: sandybrown;
+    border-color: sandybrown;
+}
+
+.btn:active {
+    background-color: chocolate;
+    border-color: chocolate;
+}
+
+.dropdown-item {
+    list-style-type: none;
+}
+
+#header {
+    padding: 15px;
+}
+
+#skills {
+    padding: 15px;
+}
+
+#education {
+    padding: 15px;
+}
+
+#experience {
+    padding: 15px;
+}
+
+#activites {
+    padding: 15px;
+}
